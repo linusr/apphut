@@ -37,3 +37,5 @@ a { color: var(--accent); }
 nav { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; }
 nav a { margin-right: 16px; }
 ul { padding-left: 20px; }
+.store-badge { display: inline-block; line-height: 0; }
+.store-badge img { width: 150px; height: 50px; }
