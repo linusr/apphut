@@ -39,3 +39,5 @@ nav a { margin-right: 16px; }
 ul { padding-left: 20px; }
 .store-badge { display: inline-block; line-height: 0; }
 .store-badge img { width: 150px; height: 50px; }
+.soon { display: inline-block; background: color-mix(in srgb, var(--accent) 14%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); border-radius: 12px; padding: 10px 16px; }
+.tag { font-size: 13px; color: var(--accent); }
