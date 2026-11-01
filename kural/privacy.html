@@ -10,7 +10,7 @@
 <body>
 <main>
 <header><a href="index.html"><img src="icon.png" alt="Kural Podcasts"></a><h1>Privacy Policy</h1></header>
-<p class="muted">Effective September 28, 2026</p>
+<p class="muted">Effective November 1, 2026</p>
 <p>Kural Podcasts ("Kural") is a podcast player. The developer of Kural does not operate a service for the app, does not collect any data from it, and has no access to your library, listening history or credentials.</p>
 
 <h2>Data the app does not collect</h2>
@@ -23,11 +23,14 @@
 <li><strong>Apple Music, if you turn it on.</strong> Kural uses Apple's MusicKit to browse and play your Apple Music library and catalog, and to add songs to your playlists and favorites. That data stays with Apple; Kural doesn't store or send it anywhere else.</li>
 <li><strong>Your iCloud account.</strong> Your subscriptions, playback positions, played and saved episodes and Up Next are synced through your private iCloud database, which only you can read.</li>
 <li><strong>Your PinePods server, if you add one.</strong> Signing in is optional. The server address, username and password you enter are used only to sign in to that server; the resulting API key is kept in the iOS Keychain. Your library and listening state are synced with that server, which is operated by you or whoever you chose to trust.</li>
+<li><strong>An AI service, only if you set one up.</strong> In Settings &gt; AI &gt; AI Model you can enter your own API key for Anthropic or an OpenAI-compatible service at an address you choose. Nothing is sent until you do. Once set up, Kural sends that service the transcript text of downloaded episodes it analyzes (never the audio), to find chapters and ads, and, if you turn on Smart Queue, the titles and short descriptions of candidate episodes with a summary of which shows and episodes you have finished, started or removed, to choose what to queue. Requests go straight from your iPhone to that address under your key and that service's own privacy policy; the key is kept in the iOS Keychain. Turning the AI model off stops it.</li>
 </ul>
 
 <h2>Data stored on your devices</h2>
 <ul>
 <li>Your library, downloaded episodes, settings and the automation activity log are kept in the app's own storage and shared with its widgets through an app group.</li>
+<li>Episode analysis transcribes downloaded episodes on your iPhone with Apple's speech recognition, and finds music, pauses and ads there; on devices with Apple Intelligence it can also use Apple's on-device model. The transcripts and results stay in the app's storage and are deleted with the download.</li>
+<li>A playback log, kept on your iPhone for a few days, can be shared from Settings if you choose to send it with a support request. It contains episode and show names, never passwords or keys.</li>
 <li>If you use the Apple Watch app, the current episode and Up Next are sent from your iPhone to your paired Apple Watch.</li>
 </ul>
 <p>Deleting the app removes this data from your device. Data in your iCloud account can be removed in the Settings app under your Apple Account, iCloud.</p>
